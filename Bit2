@@ -1,0 +1,52 @@
+Bit 2 — Branching & Collaboration (Technical Answers)
+1. What is Branching in Git?
+
+Branching allows developers to work independently on new features or bug fixes without impacting the main branch.
+
+2. Why do we use Branches?
+
+Branches are used for:
+
+Parallel development
+Feature testing
+Safe code modifications
+Team collaboration
+3. What is Merge?
+
+Merge combines changes from one branch into another branch.
+
+Example:
+
+git merge feature-branch
+4. What is Merge Conflict?
+
+A merge conflict occurs when two branches modify the same section of a file differently, and Git cannot automatically resolve it.
+
+5. Difference between git pull and git fetch?
+git pull	git fetch
+Downloads and merges changes	Downloads only
+Updates working directory	Does not change working files
+6. What is a Pull Request?
+
+A pull request (PR) is a request to merge code changes from one branch into another after review and approval.
+
+7. What is Fork in GitHub?
+
+A fork creates a copy of another user’s repository into your GitHub account for independent development.
+
+8. Difference between Public and Private Repositories?
+Public	Private
+Accessible to everyone	Restricted access
+Mostly open-source	Used for internal/company projects
+9. How do Teams Collaborate using GitHub?
+
+Teams collaborate by:
+
+Creating branches
+Committing code
+Raising pull requests
+Reviewing code
+Merging approved changes
+10. What is Code Review?
+
+Code review is the process of checking code quality, security, and standards before merging into the main branch.
