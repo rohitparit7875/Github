@@ -1,0 +1,82 @@
+Bit 4 — DevOps / Infrastructure GitHub Usage
+1. How is GitHub used in Infrastructure Teams?
+
+GitHub is used for:
+
+Infrastructure as Code
+Configuration management
+Automation scripts
+CI/CD pipelines
+Documentation management
+2. What is Infrastructure as Code (IaC)?
+
+Infrastructure as Code is the process of managing infrastructure using configuration files instead of manual setup.
+
+Common tools:
+
+Terraform
+Ansible
+3. What is CI/CD?
+
+CI/CD stands for:
+
+Continuous Integration
+Continuous Deployment
+
+It automates:
+
+Build
+Testing
+Deployment
+4. What is GitHub Actions?
+
+GitHub Actions is GitHub’s built-in CI/CD automation platform used to automate workflows.
+
+5. How do you Secure Secrets in GitHub?
+
+Secrets are secured using:
+
+GitHub Secrets
+Environment variables
+Secret managers
+
+Passwords should never be hardcoded.
+
+6. How is Git used with Terraform?
+
+Git stores:
+
+Terraform configuration files
+Version history
+Infrastructure changes
+Collaboration workflows
+7. How is GitHub used in Automation?
+
+GitHub integrates with automation tools for:
+
+CI/CD
+Server provisioning
+Infrastructure deployment
+Monitoring workflows
+8. Why is Git Important for DevOps?
+
+Git enables:
+
+Collaboration
+Version control
+Automation
+Rollback capability
+Infrastructure tracking
+9. How do you Manage Configuration Files in GitHub?
+
+By:
+
+Maintaining separate repositories
+Using branches
+Using .gitignore
+Securing sensitive files
+10. Explain Git Workflow in your Project
+
+Example Answer:
+
+Developers create feature branches, commit changes locally, push code to GitHub, raise pull requests, reviewers validate the code, and after approval, changes are merged into the main branch through CI/CD pipelines.
