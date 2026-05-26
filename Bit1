@@ -1,0 +1,71 @@
+. What is Git?
+
+Git is a distributed version control system used to track changes in source code and collaborate with multiple developers. It allows version tracking, branching, merging, and rollback of code changes.
+
+2. What is GitHub?
+
+GitHub is a cloud-based platform that hosts Git repositories and provides collaboration features like pull requests, issue tracking, and CI/CD integration.
+
+3. Difference between Git and GitHub?
+Git	GitHub
+Version control tool	Repository hosting platform
+Installed locally	Cloud platform
+Tracks file changes	Manages collaboration
+4. What is a Repository?
+
+A repository is a centralized storage location containing project files, commit history, branches, and configuration files.
+
+Repositories can be:
+
+Local repository
+Remote repository
+5. What is Version Control?
+
+Version control is a system that tracks modifications to files over time, allowing users to:
+
+Restore previous versions
+Track changes
+Collaborate safely
+Maintain code history
+6. What is a Commit?
+
+A commit is a snapshot of code changes saved into the Git history with a unique commit ID and message.
+
+Example:
+
+git commit -m "Updated network configuration"
+7. What is a Branch?
+
+A branch is an independent line of development used to work on features or fixes without affecting the main codebase.
+
+Common branches:
+
+main
+develop
+feature branch
+8. What is Cloning?
+
+Cloning means creating a local copy of a remote repository.
+
+Example:
+
+git clone https://github.com/user/project.git
+9. What is a Remote Repository?
+
+A remote repository is a centrally hosted repository stored on platforms like GitHub for team collaboration and backup.
+
+10. What is .gitignore?
+
+.gitignore is a configuration file used to exclude unnecessary files from Git tracking.
+
+Example:
+
+node_modules/
+*.log
+.env
+
+Used to avoid uploading:
+
+Logs
+Secrets
+Temporary files
