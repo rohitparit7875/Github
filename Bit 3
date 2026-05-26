@@ -1,0 +1,60 @@
+1. What is git revert?
+
+git revert creates a new commit that reverses changes made by a previous commit.
+
+Example:
+
+git revert <commit-id>
+2. Difference between git reset and git revert?
+git reset	git revert
+Removes commit history	Creates reverse commit
+Risky for shared repos	Safe for collaboration
+3. What is git log?
+
+Displays commit history including commit IDs, author details, and timestamps.
+
+Example:
+
+git log
+4. How do you Recover Deleted Code?
+
+Using:
+
+git reflog
+git checkout
+git reset
+5. What is git stash?
+
+Temporarily stores uncommitted changes without committing them.
+
+Example:
+
+git stash
+6. What is git rebase?
+
+Reapplies commits on top of another branch to maintain cleaner commit history.
+
+7. What is Conflict Resolution?
+
+Conflict resolution involves manually editing conflicting files and recommitting the corrected code.
+
+8. How do you Check Commit History?
+
+Using:
+
+git log
+9. What happens when git push fails?
+
+Possible reasons:
+
+Network issue
+Permission denied
+Authentication failure
+Merge conflict
+10. How do you Resolve Authentication Issues in GitHub?
+
+Methods:
+
+Personal Access Token (PAT)
+SSH Keys
+Correct Git credentials
